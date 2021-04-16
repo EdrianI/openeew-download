@@ -29,7 +29,7 @@ jobs:
           deployment-name: openeew-download
           github-sha: ${{ github.sha }}
           icr-namespace: openeew-download
-          image-name: openeew-download
+          image-name: openeew-download-gha
           k8s-cluster-name: c0ioei6w0iv2i68l9q80
           k8s-cluster-namespace: default
           registry-hostname: us.icr.io
