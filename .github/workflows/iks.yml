@@ -28,9 +28,9 @@ jobs:
           cloud-region: us-south
           deployment-name: openeew-download
           github-sha: ${{ github.sha }}
-          icr-namespace: ${{ secrets.ICR_NAMESPACE }}
+          icr-namespace: openeew-download
           image-name: openeew-download
-          k8s-cluster-name: ${{ secrets.K8S_CLUSTER_NAME }}
-          k8s-cluster-namespace: ${{ secrets.K8S_CLUSTER_NAMESPACE }}
+          k8s-cluster-name: c0ioei6w0iv2i68l9q80
+          k8s-cluster-namespace: default
           registry-hostname: us.icr.io
           working-directory: "."
